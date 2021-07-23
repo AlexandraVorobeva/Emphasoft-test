@@ -20,7 +20,7 @@ class UserService:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
         return user
 
-    def get_list(self) -> list[tables.User]:
+    def get_list(self, user_id: int) -> list[tables.User]:
         users = (self.session.query(tables.User).all())
         return users
 

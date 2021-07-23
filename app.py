@@ -3,6 +3,7 @@ from api import router
 
 
 app = FastAPI(
-    title='Emphasoft Api'
+    title='Emphasoft Api',
+    description='API by Aexandra Vorobeva'
 )
 app.include_router(router)
