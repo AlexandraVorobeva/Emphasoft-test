@@ -3,8 +3,8 @@ from sqlalchemy.orm import sessionmaker
 
 
 engine = create_engine(
-    'sqlite:///./database.sqlite3',
-    connect_args={'check_same_thread': False},
+    "sqlite:///./database.sqlite3",
+    connect_args={"check_same_thread": False},
 )
 
 

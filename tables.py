@@ -6,10 +6,10 @@ Base = declarative_base()
 
 
 class User(Base):
-    __tablename__ = 'users'
+    __tablename__ = "users"
     id = sa.Column(sa.Integer, primary_key=True)
     username = sa.Column(sa.Text, unique=True)
-    email =sa.Column(sa.Text, unique=True)
+    email = sa.Column(sa.Text, unique=True)
     first_name = sa.Column(sa.Text)
     last_name = sa.Column(sa.Text)
     password_hash = sa.Column(sa.Text)
