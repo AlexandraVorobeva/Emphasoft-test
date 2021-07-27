@@ -2,6 +2,13 @@
 ## FASTAPI CRUD application.
 REST API application for users with authentication.<br>
 
+### Stack of technologies:<br>
+-Python >= 3.9<br>
+-FastApi<br>
+-linter: Black<br>
+
+
+
 ### Basic functionality:<br>
 1.Web REST API<br>
 2.For a start you should sign up or sign in (if you was registered before)<br>
@@ -32,7 +39,7 @@ $ uvicorn app:app --reload<br>
 
 
 ### Run tests:<br>
-$ run pytest<br>
+$ pytest<br>
 
 
 ### API from the browser:
