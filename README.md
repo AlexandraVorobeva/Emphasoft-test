@@ -25,7 +25,7 @@ $ virtualenv venv<br>
 $ source venv/bin/activate<br>
 
 ### Dependency
-$ pip install -r requirements.tx<br>
+$ pip install -r requirements.txt<br>
 
 ### Run the sample server:<br>
 $ uvicorn app:app --reload<br>
